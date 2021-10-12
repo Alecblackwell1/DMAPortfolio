@@ -5,11 +5,6 @@ header {
 
 	}
 
-h1 {
-	text-align: center;
-	color: white;
-}
-
 p {
 	font-size: 24px;
 	color: white;
@@ -24,25 +19,12 @@ a {
 
 }
 
-span.Producer {
+span.Doubt {
 	color: lightblue;
-}
-
-span.ProStreamer {
-	color: red;
-}
-
-span.Analyst {
-	color:	lightblue;
-}
-
-span.FuckIDK {
-	color: yellow;
-}
 
 a:link {
-  text-decoration: none;
-}
+	text-decoration: none;
+  }
 
 div {
 text-align: center;
