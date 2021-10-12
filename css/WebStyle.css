@@ -15,10 +15,10 @@ body{
 		margin: 0;
 		padding: 0;
 	}
-h2{
-	font-size: 35px;
-	font: Arial, Helvetica, sans-serif;
-}
+	h2{
+		font-size: 35px;
+		font: Arial, Helvetica, sans-serif;
+	}
 /*Header*/
 	header{
 		background: #35424a;
@@ -64,19 +64,18 @@ h2{
 	}
 
 
+	#what {
+		font-size: 15px;
+	}
 
-#what {
-	font-size: 15px;
-}
 
+	a {
+		font-size: 25px;
+	}
 
-a {
-	font-size: 25px;
-}
-
-p {
-	font-size: 15px;
-}
+	p {
+		font-size: 15px;
+	}
 
 
 #burrito {
