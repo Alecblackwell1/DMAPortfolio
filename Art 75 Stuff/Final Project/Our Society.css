@@ -1,0 +1,49 @@
+header {
+	font-size: 36px;
+	color: white;
+	text-align: center;
+
+	}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+p {
+	font-size: 24px;
+	color: white;
+	line-height: 2;
+}
+
+a {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+
+}
+
+span.Producer {
+	color: lightblue;
+}
+
+span.ProStreamer {
+	color: red;
+}
+
+span.Analyst {
+	color:	lightblue;
+}
+
+span.FuckIDK {
+	color: yellow;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+div {
+text-align: center;
+}
