@@ -4,7 +4,10 @@ var animation;
 var angle = 0.0;
 var jitter=0.0;
 function setup(){
-  createCanvas (800,600);
+  var cnv = createCanvas (800,600);
+  let xpos = (windowWidth - width) / 2
+  let ypos = (windowHeight - height) / 2
+  cnv.position (xpos,ypos)
   noStroke();
   fill(255);
   
@@ -25,11 +28,9 @@ function draw(){
   }
   angle = angle + jitter;
   var c = cos(angle);
-//  translate(width/2, height/2);
   rotate(c);
   ellipse(100, 46, 55, 55);  
 triangle(70, 100, 150, 500, 86, 75);
   }
 }
-//animation=animation+0.5;
 }
