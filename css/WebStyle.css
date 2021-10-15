@@ -83,3 +83,14 @@ body{
 	font: helvetica;
 }
 
+.column {
+	margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	padding: 10px;
+  }
+
+  .image {
+	  margin: auto;
+	  width: 50%;
+  }
