@@ -2,7 +2,7 @@ body{
 	font: 15px/1.5 Arial, Helvetica,sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: #f4f4f4;
+	background-color: #C0C0C0;
 }
 
 /*Global*/
@@ -92,7 +92,13 @@ body{
 	 	margin: 5px;
 	}
 
-	.image {
+	.GAimage {
+		margin: auto;
+		width: 60%;
+		padding: 30px;
+	}
+
+	.PHOTimage {
 		margin: auto;
 		width: 50%;
 		padding: 30px;
