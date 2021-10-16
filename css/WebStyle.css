@@ -119,3 +119,10 @@ body{
 		text-align: center;
 		color: white;
 	}
+
+	.video{
+		margin: auto;
+		width: 60%;
+		padding: 30px;	
+		text-align: center;
+	}
