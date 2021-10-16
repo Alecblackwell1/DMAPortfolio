@@ -43,6 +43,7 @@ body{
 
 	header #branding{
 		float: left;
+		
 	}
 	header #branding h1{
 		margin: 0;
@@ -63,31 +64,32 @@ body{
 		font-weight: bold;
 	}
 
-
-	#what {
-		font-size: 15px;
-	}
-
-
+	/* Links */
 	a {
 		font-size: 25px;
 	}
 
+	/* Paragraph */
 	p {
 		font-size: 15px;
 	}
 
-
-	#burrito {
-		font-size: 18px;
-		font: helvetica;
+	.columns {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 100%;
+		height: 100%;
+		text-align: center;
 	}
-
+	  
 	.column {
-		margin: auto;
-		width: 50%;
-		border: 3px solid green;
-		padding: 10px;
+		flex-wrap: wrap;
+		flex: 33.33%;
+		border: 3px solid black;
+	  	padding: 10px;
+	 	margin: 5px;
 	}
 
 	.image {
@@ -97,13 +99,23 @@ body{
 	}
 
 	.Description{
-		margin: auto;
-		width: 50%;
-		padding: 30px;
-	}
+		flex: 33.33%;
+	} 
 
-	.container{
+	.intro{
 		margin: auto;
 		width: 50%;
 		padding: 30px;		
+	}
+
+	.webLink{
+		font-size: 18px;
+		font: helvetica;
+	}
+
+	.imageDesc{
+		font-size: 18px;
+		font: Helvetica;
+		text-align: center;
+		color: white;
 	}
