@@ -137,4 +137,9 @@ body{
 		text-align: center;
 	}
 
-	
+	.model{
+		margin: auto;
+		width: 50%;
+		padding: 30px;	
+		text-align: center;		
+	}
