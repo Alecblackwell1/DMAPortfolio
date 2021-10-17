@@ -104,6 +104,10 @@ body{
 		padding: 30px;
 	}
 
+	.PHOTimage h1{
+		color: white;
+	}
+
 	.Description{
 		flex: 33.33%;
 	} 
@@ -132,3 +136,5 @@ body{
 		padding: 30px;	
 		text-align: center;
 	}
+
+	
