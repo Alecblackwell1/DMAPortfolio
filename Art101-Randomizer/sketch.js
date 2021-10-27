@@ -51,8 +51,10 @@ function preload() {
 
 
 function setup() {
-  cnv = createCanvas(800, 800);
-  cnv.parent("#canvasDiv");
+  var cnv = createCanvas(800, 800);
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 1;
+  cnv.position(x, y);
 
   background(128, 128, 128);
   textSize(32);
@@ -64,7 +66,6 @@ function setup() {
   textAlign(LEFT);
   text(`Click once to find what game 
 you should play today`, width / 5, height / 5)
-
 
   button = select("#randButton")
   button.mousePressed(buttonPressed)
@@ -101,7 +102,7 @@ function randomizer() {
     text(games[randomIndex].name, width / 2, height / 10);
     //Shows image for what game to play
     image(vgs[randomIndex], width / 2, height / 2);
-    text('Click once to reroll', width / 2, height / 1.17)
+    text('Click once to reroll', width / 2, height / 1.18)
     tries = tries + 1;
 
   } else {
