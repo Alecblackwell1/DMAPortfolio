@@ -49,11 +49,10 @@ function preload() {
     vgs[i] = loadImage(`EditedAssets/vgs_${i}.jpg`)
 }
 
-
 function setup() {
   var cnv = createCanvas(800, 800);
   var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) / 1;
+  var y = (windowHeight - height) / 0.5;
   cnv.position(x, y);
 
   background(128, 128, 128);
@@ -64,14 +63,12 @@ function setup() {
   //Text at start
   fill(200, 189, 230)
   textAlign(LEFT);
-  text(`Click once to find what game 
-you should play today`, width / 5, height / 5)
-
+  text(`Click once to find what 
+  game you should play today`, width / 5, height / 5)
   button = select("#randButton")
   button.mousePressed(buttonPressed)
   button.position(width / 3, height)
   button.class("randomizerButton");
-
 }
 
 function draw() {
@@ -90,7 +87,7 @@ function draw() {
 
 function randomizer() {
   animating = false;
-  if (tries < 5) {
+  if (tries < 7) {
     //This shows a random game
     clear();
     randomIndex = int(random(games.length));
@@ -104,7 +101,6 @@ function randomizer() {
     image(vgs[randomIndex], width / 2, height / 2);
     text('Click once to reroll', width / 2, height / 1.18)
     tries = tries + 1;
-
   } else {
     background(random(200, 255));
     textAlign(CENTER);
