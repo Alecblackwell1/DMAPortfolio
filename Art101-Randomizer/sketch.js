@@ -43,7 +43,7 @@ let tries = 0;
 let button;
 let cnv;
 
-//Loads the iamges before they're called
+//Loads the images before they're called
 function preload() {
   for (let i = 0; i <= 10; i++)
     vgs[i] = loadImage(`EditedAssets/vgs_${i}.jpg`)

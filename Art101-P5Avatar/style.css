@@ -67,3 +67,20 @@ ul{
   text-align: center;
   color: white;
 }
+
+.mySketch{
+  position: relative;
+  top: 20px;
+}
+
+.codingImgs{
+  position: relative;
+  top: 25cm; 
+}
+
+.codingPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
