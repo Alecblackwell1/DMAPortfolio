@@ -65,12 +65,6 @@ body{
 		font-weight: bold;
 	}
 
-
-	#what {
-		font-size: 15px;
-	}
-
-
 	a {
 		font-size: 25px;
 	}
@@ -79,8 +73,17 @@ body{
 		font-size: 15px;
 	}
 
+	.sketchDesc{
+		text-align: center;
+		padding-top: 35%;
+		color: white;
+	}
 
-#burrito {
-	font-size: 18px;
-	font-family: "courier", monospace;}
+	#burrito {
+		font-size: 18px;
+		font-family: "courier", monospace;}
 
+	.sunThing{
+		text-align: center;
+		color: white;
+	}

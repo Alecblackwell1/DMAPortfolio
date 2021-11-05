@@ -31,7 +31,6 @@ body{
 		min-height: 70px;
 		border-bottom: #e8491d 3px solid;
 		font-family: "courier", monospace;
-
 	}
 
 	header a{
@@ -102,9 +101,11 @@ body{
 	}
 
 	.GAimage {
+		text-align: center;
 		margin: auto;
 		width: 60%;
 		padding: 30px;
+		color: white;
 	}
 
 	.PHOTimage {
@@ -149,6 +150,7 @@ body{
 		width: 60%;
 		padding: 30px;	
 		text-align: center;
+		color: white;
 	}
 
 	.model{
