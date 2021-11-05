@@ -4,6 +4,7 @@ p { font-size: 13pt ;
 	border: 2px solid;
     padding: 20px;
     width: 350px;
+    font-family: "courier", monospace;
 }
 
 body {

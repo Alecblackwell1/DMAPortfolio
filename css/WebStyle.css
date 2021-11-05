@@ -1,5 +1,6 @@
 body{
-	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	font: 15px/1.5;
+	font-family: "courier", monospace;
 	padding: 0;
 	margin: 0;
 	background-color: #C0C0C0;
@@ -17,7 +18,7 @@ body{
 	}
 	h2{
 		font-size: 35px;
-		font: Arial, Helvetica, sans-serif;
+		font-family: "courier", monospace;
 	}
 	
 /*Header*/
@@ -83,6 +84,7 @@ body{
 		width: 100%;
 		height: 100%;
 		text-align: center;
+		font-family: "courier", monospace;
 	}
 	  
 	.column {
@@ -103,6 +105,8 @@ body{
 		margin: auto;
 		width: 50%;
 		padding: 30px;
+		text-align: center;
+		color: white;
 	}
 
 	.PHOTimage h1{
@@ -117,6 +121,7 @@ body{
 		margin: auto;
 		width: 50%;
 		padding: 30px;		
+		text-align: center;
 	}
 
 	.webLink{
@@ -126,7 +131,7 @@ body{
 
 	.imageDesc{
 		font-size: 18px;
-		font: Helvetica;
+		font-family: "courier", monospace;
 		text-align: center;
 		color: white;
 	}

@@ -1,11 +1,12 @@
 /* Header */
 header{
-	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	font: 15px/1.5;
 	background: #35424a;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
 	border-bottom: #e8491d 3px solid;
+	font-family: "courier", monospace;
 }
 
 header a{
@@ -57,6 +58,7 @@ ul{
 p {
 	font-size: 24px;
 	color: white;
+	text-align: center;
 }
 
 a {
@@ -75,9 +77,9 @@ span.fight {
 }
 
 a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 div {
-text-align: center;
+	text-align: center;
 }

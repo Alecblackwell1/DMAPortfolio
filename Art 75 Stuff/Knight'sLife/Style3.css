@@ -1,11 +1,12 @@
 /* Header */
 header{
-	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	font: 15px/1.5;
 	background: #35424a;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
 	border-bottom: #e8491d 3px solid;
+	font-family: "courier", monospace;
 }
 
 header a{
@@ -53,6 +54,7 @@ p {
 	color: white;
 	font-weight: bold;
 	font-size: 25px;
+	text-align: center;
 }
 
 img {

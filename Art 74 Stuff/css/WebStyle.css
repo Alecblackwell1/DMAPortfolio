@@ -1,8 +1,9 @@
 body{
-	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	font: 15px/1.5;
 	padding: 0;
 	margin: 0;
 	background-color: #f4f4f4;
+	font-family: "courier", monospace;
 }
 
 /*Global*/
@@ -10,6 +11,7 @@ body{
 		width: 80%;
 		margin: auto;
 		overflow: hidden;
+		font-family: "courier", monospace;
 	}
 	ul{
 		margin: 0;
@@ -17,7 +19,7 @@ body{
 	}
 	h2{
 		font-size: 35px;
-		font: Arial, Helvetica, sans-serif;
+		font-family: "courier", monospace;
 	}
 /*Header*/
 	header{
@@ -80,6 +82,5 @@ body{
 
 #burrito {
 	font-size: 18px;
-	font: helvetica;
-}
+	font-family: "courier", monospace;}
 
