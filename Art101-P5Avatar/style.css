@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: "courier", monospace;
+  background: #C0C0C0;
 }
 canvas {
   display: block;
@@ -13,6 +15,8 @@ header{
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #e8491d 3px solid;
+  font-family: "courier", monospace;
+
 }
 
 header a{
@@ -63,7 +67,7 @@ ul{
 
 .imageDesc{
   font-size: 18px;
-  font: Helvetica;
+  font-family: "courier", monospace;
   text-align: center;
   color: white;
 }
@@ -71,6 +75,7 @@ ul{
 .mySketch{
   position: relative;
   top: 20px;
+  
 }
 
 .codingImgs{
@@ -83,4 +88,8 @@ ul{
   margin-left: auto;
   margin-right: auto;
   /* width: 50%; */
+}
+
+.sketchdesc{
+  background: #C0C0C0;
 }
