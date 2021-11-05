@@ -11,6 +11,8 @@ body{
 		width: 80%;
 		margin: auto;
 		overflow: hidden;
+		font-family: "courier", monospace;
+
 	}
 	ul{
 		margin: 0;
