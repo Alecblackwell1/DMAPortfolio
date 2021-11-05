@@ -28,6 +28,8 @@ body{
 		padding-top: 30px;
 		min-height: 70px;
 		border-bottom: #e8491d 3px solid;
+		font-family: "courier", monospace;
+
 	}
 
 	header a{
@@ -74,6 +76,8 @@ body{
 	/* Paragraph */
 	p {
 		font-size: 15px;
+		font-family: "courier", monospace;
+
 	}
 
 	.columns {
@@ -115,6 +119,8 @@ body{
 
 	.Description{
 		flex: 33.33%;
+		font-family: "courier", monospace;
+
 	} 
 
 	.intro{
