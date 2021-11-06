@@ -72,3 +72,15 @@ ul{
   text-align: center;
   color: white;
 }
+
+.codingImgs{
+  position: relative;
+  top: 25cm; 
+}
+
+.codingPic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
