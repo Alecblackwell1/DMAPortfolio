@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: "courier", monospace;
+
 }
 canvas {
   display: block;
@@ -84,3 +86,4 @@ ul{
   margin-right: auto;
   /* width: 50%; */
 }
+

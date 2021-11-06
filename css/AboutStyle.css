@@ -85,13 +85,17 @@ body{
 		line-height: 2;
 		text-align: justify;
 		text-justify: auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
+
+	.ArtistDesc1{
+		padding: 0;
+		margin: 0;
 	}
 
 	.ArtistDesc2{
-		font-weight: bold;
-		font-size: large;
-		font-family: "courier", monospace;
-		line-height: 2;
-		text-align: justify;
-		text-justify: auto;
+		padding: 0;
+		margin: 0;
 	}
