@@ -20,7 +20,7 @@
           function setup() {
             var cnv = createCanvas(800, 800);
             var x = (windowWidth - width) / 2;
-            var y = (windowHeight - height) / 1.8;
+            var y = (windowHeight - height) / 1.7;
             cnv.position(x, y);
             angleMode(DEGREES)
 
