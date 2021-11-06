@@ -6,7 +6,7 @@ var jitter=0.0;
 function setup(){
   var cnv = createCanvas (800,600);
   let xpos = (windowWidth - width) / 2
-  let ypos = (windowHeight - height) / 2
+  let ypos = (windowHeight - height) / 1.25
   cnv.position (xpos,ypos)
   noStroke();
   fill(255);
