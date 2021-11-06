@@ -52,7 +52,7 @@ function preload() {
 function setup() {
   var cnv = createCanvas(800, 800);
   var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) / 0.5;
+  var y = (windowHeight - height) / 1.9;
   cnv.position(x, y);
 
   background(128, 128, 128);
