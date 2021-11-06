@@ -105,7 +105,7 @@ function randomizer() {
     background(random(200, 255));
     textAlign(CENTER);
     fill(255, 0, 0)
-    text("You've tried too many times, pick one already!", width / 2, height / 5)
+    text("Uh oh, you've ran out! Refresh the page to reroll again!", width / 2, height / 5)
   }
 }
 
